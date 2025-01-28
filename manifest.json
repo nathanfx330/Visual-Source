@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Visual Source",
+  "version": "1.0",
+  "description": "View source with image thumbnails and clickable paths",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.jpg",
+      "48": "icons/icon48.jpg",
+      "128": "icons/icon128.jpg"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.jpg",
+    "48": "icons/icon48.jpg",
+    "128": "icons/icon128.jpg"
+  }
+}
